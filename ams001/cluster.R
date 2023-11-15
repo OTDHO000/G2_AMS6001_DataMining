@@ -27,5 +27,8 @@ ggplot(heartdata_clustered, aes(x = heartdata_clustered$age, y = heartdata_clust
 ggplot(heartdata, aes(x = heartdata$age, y = heartdata$thalachh, color = heartdata$output)) + geom_point()
 
 
-
+#calculates the accuracy of the prediction
+accuracy = ifelse(heartdata_clustered$cluster == heartdata$output+1, 'Y','N')
+acc_rate = sum(accuracy == 'Y')/length(accuracy)
+acc_rate
 
