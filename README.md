@@ -26,7 +26,15 @@ The dataset, composed of both categorical and numerical data, provides a compreh
   Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 10. thalach : maximum heart rate achieved
 11. ST Depression Induced by Exercise Relative to Rest (oldpeak) : Changes in the ST segment on an ECG can indicate heart disease. ST depression can indicate ischemia, or lack of sufficient blood flow to the heart muscle.
-12. The Slope of The Peak Exercise ST Segment (slp) : The ST segment/heart rate slope (ST/HR slope), has been introduced as an index of relative myocardial oxygen demand during exercise. The shape of the ST segment can reveal a lot about the heart's condition.
-13. Thallium Stress Test (thall) : This is a nuclear imaging method that shows how well blood flows into the heart muscle, both at rest and during activity. It can reveal areas of the heart muscle that aren't receiving enough blood, indicating coronary artery disease.
+13. The Slope of The Peak Exercise ST Segment (slp) : The ST segment/heart rate slope (ST/HR slope), has been introduced as an index of relative myocardial oxygen demand during exercise. The shape of the ST segment can reveal a lot about the heart's condition.
+14. Thallium Stress Test (thall) : This is a nuclear imaging method that shows how well blood flows into the heart muscle, both at rest and during activity. It can reveal areas of the heart muscle that aren't receiving enough blood, indicating coronary artery disease.
 target : 0= less chance of heart attack 1= more chance of heart attack
+
+## Method
+k-nearest neighbour (KNN)
+Decision Tree
+Naive Bayes classifier
+Support Vector Machine
+Logistic Regression
+
 
